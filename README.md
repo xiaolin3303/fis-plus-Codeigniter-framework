@@ -1,4 +1,4 @@
-### Gongpingjia PC rebuild, FIS-Plus + CodeIgniter
+### FIS-Plus + CodeIgniter framework
 
 #### prepare
 * download CodeIgniter version `3.1.0` [Download](https://github.com/bcit-ci/CodeIgniter/releases)
