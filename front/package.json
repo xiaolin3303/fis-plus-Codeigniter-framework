@@ -1,0 +1,26 @@
+{
+    "name": "fisp-CodeIgniter",
+    "version": "1.0.0",
+    "description": "build by fis-plus + CodeIgniter",
+    "scripts": {
+        "test": "mocha test/ --recursive"
+    },
+    "keywords": [
+        "fis",
+        "fis-plus",
+        "CodeIgniter",
+        "componentization"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:xiaolin3303/fis-plus-Codeigniter-framework.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "~3.4.1",
+        "mocha": "~2.3.4",
+        "mochawesome": "~1.2.1"
+    },
+    "author": "xiaolin3303",
+    "license": "MIT"
+}
