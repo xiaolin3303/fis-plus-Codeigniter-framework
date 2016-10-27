@@ -8,5 +8,7 @@
 </div>
 
 {%script%}
-	require('front:widget/list/list.js').create('.fis-widget-list', {})
+	require('front:widget/list/list.js').create('.fis-widget-list', {
+		msg: 'hello world!'
+	});
 {%/script%}
