@@ -1,0 +1,53 @@
+.gpjpc-widget-tip {
+	position: fixed;
+	text-align: center;
+	height: 30px;
+	width: 100%;
+	top: 0;
+	z-index: 10000;
+	display: none;
+
+	span {
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		color: white;
+		display: inline-block;
+		background: #32a890;
+
+		em {
+			font-style: normal;
+		}
+
+		&.success {
+			background: #32a890;
+
+			i.icon {
+				background-position: 0 0;
+			}
+		}
+
+		&.warning {
+			background: #ff9702;
+
+			i.icon {
+				background-position: 0 -16px;
+			}			
+		}
+
+		i.icon {
+			position: relative;
+			top: 3px;
+			margin-right: 10px;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			background: url(/static/img/common/tip-icons.png) no-repeat;
+			background: -webkit-image-set(url(/static/img/common/tip-icons.png) 1x, url(/static/img/common/tip-icons-2x.png) 2x);	
+			background: -moz-image-set(url(/static/img/common/tip-icons.png) 1x, url(/static/img/common/tip-icons-2x.png) 2x);	
+			background: -o-image-set(url(/static/img/common/tip-icons.png) 1x, url(/static/img/common/tip-icons-2x.png) 2x);	
+			background: -ms-image-set(url(/static/img/common/tip-icons.png) 1x, url(/static/img/common/tip-icons-2x.png) 2x);	
+			background-size: 16px auto;
+		}
+	}
+}

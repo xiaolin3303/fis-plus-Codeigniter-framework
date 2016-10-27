@@ -1,7 +1,9 @@
+var Tip = require('front:widget/common/tip/tip.js');
+
 module.exports = Widget.extend({
 	init: function () {
 		$('.btn', this.el).on('click', function () {
-			alert('button clicked!')
+			Tip.message('button clicked!', 'success');
 		});
 	}
 });
