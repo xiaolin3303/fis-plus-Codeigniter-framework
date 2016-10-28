@@ -1,6 +1,6 @@
 ### FIS-Plus + CodeIgniter framework
 
-#### prepare
+#### Prepare
 * download CodeIgniter version `3.1.0` [Download](https://github.com/bcit-ci/CodeIgniter/releases)
 * copy `receiver.php` to your server dev root
 * `mkdir plugin` on server dev root
